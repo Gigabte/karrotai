@@ -1,0 +1,57 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Admin {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Promoter {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  password      String
+  name          String
+  referralCode  String   @unique
+  commission    Float    @default(20.0) // 20% commission
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  clicks        Click[]
+  waitlistUsers WaitlistUser[]
+}
+
+model Click {
+  id         String   @id @default(cuid())
+  promoterId String
+  promoter   Promoter @relation(fields: [promoterId], references: [id])
+  country    String?
+  city       String?
+  userAgent  String?
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+}
+
+model WaitlistUser {
+  id         String   @id @default(cuid())
+  email      String   @unique
+  country    String?
+  city       String?
+  referralCode String?
+  promoterId String?
+  promoter   Promoter? @relation(fields: [promoterId], references: [id])
+  createdAt  DateTime @default(now())
+}

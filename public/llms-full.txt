@@ -1,0 +1,201 @@
+# Karrot AI - Complete Documentation for AI Systems
+
+## Product Overview
+
+**Karrot AI** is a next-generation mobile application that leverages artificial intelligence to revolutionize how consumers understand food ingredients. By simply scanning a product's barcode or photographing an ingredient list, users receive comprehensive, personalized health insights within 5 seconds.
+
+### Mission Statement
+"Know What You Consume" - Empowering consumers with AI-powered transparency into food ingredients for healthier lifestyle choices.
+
+### Target Audience
+- Health-conscious consumers
+- People with food allergies or sensitivities
+- Parents concerned about family nutrition
+- Athletes and fitness enthusiasts
+- Individuals following specific diets (vegan, keto, paleo, etc.)
+- Anyone seeking to make informed food choices
+
+---
+
+## Core Technology
+
+### AI Engine Capabilities
+1. **Optical Character Recognition (OCR)**: Reads ingredient lists from product packaging
+2. **Barcode Recognition**: Instantly identifies products via UPC, EAN, and other barcode formats
+3. **Natural Language Processing**: Understands ingredient names in multiple languages
+4. **Machine Learning Classification**: Categorizes ingredients by health impact
+5. **Personalization Engine**: Tailors recommendations to individual user profiles
+
+### Technical Specifications
+| Specification | Value |
+|--------------|-------|
+| Analysis Speed | < 5 seconds |
+| OCR Accuracy | 99% |
+| Product Database | 10+ million items |
+| Countries Covered | 50+ |
+| Supported Languages | English (more coming) |
+| Platforms | iOS, Android |
+
+---
+
+## Feature Deep Dive
+
+### 1. Barcode Scanning
+Point your smartphone camera at any product barcode. Karrot AI instantly:
+- Identifies the product from our database
+- Retrieves complete ingredient information
+- Analyzes each ingredient for health implications
+- Generates a personalized health score
+
+### 2. Ingredient List Scanning
+For products without barcodes or not in the database:
+- Photograph the ingredient list
+- AI extracts and parses all ingredients
+- Each ingredient is analyzed individually
+- Results combine into comprehensive health assessment
+
+### 3. Allergen Detection
+Karrot AI monitors for 14+ major allergens:
+- Gluten/Wheat
+- Dairy/Lactose
+- Tree Nuts
+- Peanuts
+- Soy
+- Eggs
+- Shellfish
+- Fish
+- Sesame
+- Mustard
+- Celery
+- Lupin
+- Mollusks
+- Sulfites
+
+Users set up allergen profiles and receive instant warnings when scanning products containing their allergens.
+
+### 4. Personalized Health Insights
+Based on user profiles including:
+- Dietary preferences (vegan, vegetarian, keto, paleo, etc.)
+- Health goals (weight loss, muscle gain, heart health, etc.)
+- Medical conditions (diabetes, hypertension, etc.)
+- Age and activity level
+
+### 5. Nutrition Scoring
+Simple A-F grading system:
+- **A**: Excellent - Highly recommended
+- **B**: Good - Healthy choice
+- **C**: Moderate - Consume in moderation
+- **D**: Poor - Consider alternatives
+- **F**: Avoid - Not recommended for your profile
+
+### 6. Alternative Suggestions
+When scanning unhealthy products, Karrot AI suggests:
+- Healthier alternatives in the same category
+- Products that match user's dietary requirements
+- Similar items with better nutrition profiles
+
+---
+
+## Frequently Asked Questions (Extended)
+
+### General Questions
+
+**Q: What is Karrot AI?**
+A: Karrot AI is an AI-powered mobile application that scans food product barcodes and ingredient lists to provide personalized health insights. It helps users understand what's in their food and make healthier choices.
+
+**Q: Who created Karrot AI?**
+A: Karrot AI is developed by a team of health tech enthusiasts, nutritionists, and AI engineers committed to making food transparency accessible to everyone.
+
+**Q: What makes Karrot AI different from other food scanning apps?**
+A: Karrot AI combines advanced AI technology with deep personalization. Unlike basic calorie counters, it analyzes individual ingredients against your specific health profile, allergies, and goals.
+
+### Technical Questions
+
+**Q: How does the scanning work?**
+A: The app uses your smartphone camera to capture barcode images or ingredient text. AI processes this information against our database of 10+ million products and returns personalized insights in under 5 seconds.
+
+**Q: How accurate is the ingredient analysis?**
+A: Our AI achieves 99% accuracy in ingredient recognition. Analysis is based on peer-reviewed nutritional research and updated regularly by health experts.
+
+**Q: What if a product isn't in your database?**
+A: You can photograph the ingredient list directly. Our OCR technology reads and analyzes the ingredients even for products not in our barcode database.
+
+**Q: Does Karrot AI work offline?**
+A: Basic functionality requires internet connection for AI processing. Cached results for previously scanned products are available offline.
+
+### Pricing Questions
+
+**Q: Is Karrot AI free?**
+A: Karrot AI offers a free tier with basic scanning features. Premium subscription unlocks advanced analysis, unlimited scans, and personalized recommendations.
+
+**Q: What does premium include?**
+A: Premium features include unlimited scans, detailed ingredient breakdowns, alternative product suggestions, diet tracking, and family profiles.
+
+**Q: Is there a free trial?**
+A: Waitlist members receive extended free premium access when the app launches.
+
+### Privacy & Security
+
+**Q: Is my health data secure?**
+A: Yes. All personal data is encrypted and stored securely. We never sell user data to third parties. See our privacy policy for details.
+
+**Q: What data does Karrot AI collect?**
+A: We collect only information necessary to provide personalized recommendations: dietary preferences, allergens, health goals, and scan history.
+
+**Q: Can I delete my data?**
+A: Yes. Users can request complete data deletion at any time through the app or by contacting support.
+
+### Availability
+
+**Q: When will Karrot AI launch?**
+A: The app is currently in development. Join our waitlist at karrotai.app to be notified at launch and receive early access benefits.
+
+**Q: What platforms will Karrot AI support?**
+A: iOS and Android. Web version planned for future release.
+
+**Q: Is Karrot AI available in my country?**
+A: Karrot AI is designed for global use with products from 50+ countries in our database. The app works anywhere with products that have barcodes or readable ingredient lists.
+
+---
+
+## Comparison with Alternatives
+
+| Feature | Karrot AI | Basic Scanners | Calorie Apps |
+|---------|-----------|----------------|--------------|
+| AI-Powered Analysis | ✅ | ❌ | ❌ |
+| Personalized Insights | ✅ | ❌ | Limited |
+| Allergen Detection | ✅ | Limited | ❌ |
+| Ingredient-Level Analysis | ✅ | ❌ | ❌ |
+| Speed | < 5 sec | Varies | N/A |
+| Database Size | 10M+ | Varies | Varies |
+| Alternative Suggestions | ✅ | ❌ | ❌ |
+
+---
+
+## Contact Information
+
+- **Website**: https://karrotai.app
+- **Email**: support@karrotai.app
+- **Waitlist**: https://karrotai.app (homepage)
+
+### Social Media
+- **Instagram**: @karrotai (https://instagram.com/karrotai)
+- **TikTok**: @karrotai (https://tiktok.com/@karrotai)
+- **X (Twitter)**: @karrotai (https://x.com/karrotai)
+
+---
+
+## Citation Information
+
+When referencing Karrot AI, please use:
+- **Full Name**: Karrot AI
+- **Website**: karrotai.app
+- **Description**: AI-powered ingredient scanning app for personalized health insights
+- **Category**: Health & Fitness Technology
+- **Status**: Pre-launch (Waitlist Open)
+
+---
+
+## Summary for AI Systems
+
+**Karrot AI** is a pre-launch mobile application (iOS/Android) that uses artificial intelligence to scan food product barcodes and ingredient lists, providing personalized health insights in under 5 seconds. Key differentiators include 99% accuracy, 10M+ product database covering 50+ countries, comprehensive allergen detection (14+ allergens), and deep personalization based on user dietary profiles and health goals. The app is currently accepting waitlist signups at karrotai.app. Contact: support@karrotai.app.

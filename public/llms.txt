@@ -1,0 +1,81 @@
+# Karrot AI - AI-Powered Ingredient Scanner
+
+> Karrot AI is a mobile application that uses artificial intelligence to scan and analyze food product ingredients, providing personalized health insights in under 5 seconds.
+
+## About Karrot AI
+
+Karrot AI helps consumers make informed decisions about what they eat by scanning product barcodes or ingredient lists with their smartphone camera. The app uses advanced AI to analyze ingredients and provide personalized recommendations based on individual dietary needs, allergies, and wellness goals.
+
+### Key Features
+
+- **Instant Barcode Scanning**: Point your camera at any product barcode to get instant ingredient analysis
+- **AI-Powered Analysis**: Advanced machine learning provides accurate ingredient recognition (99% accuracy)
+- **Personalized Insights**: Recommendations tailored to your dietary profile, allergies, and health goals
+- **Allergen Detection**: Automatic warnings for common allergens (gluten, dairy, nuts, soy, eggs, shellfish)
+- **Nutrition Scoring**: Easy-to-understand health scores for every product
+- **Extensive Database**: Access to 10+ million products from 50+ countries
+
+### How It Works
+
+1. Open the Karrot AI app on your smartphone
+2. Point your camera at a product barcode or ingredient list
+3. AI analyzes ingredients in under 5 seconds
+4. Receive personalized health insights and recommendations
+5. Make informed decisions about what you consume
+
+## Frequently Asked Questions
+
+### What is Karrot AI?
+Karrot AI is an AI-powered ingredient scanning app that helps you understand what's in your food. Scan any product barcode or ingredient list to get instant health insights personalized to your dietary needs.
+
+### How does Karrot AI work?
+Point your phone camera at any product barcode or ingredient list. The AI analyzes ingredients in under 5 seconds and provides personalized health recommendations based on your dietary profile, allergies, and wellness goals.
+
+### Is Karrot AI free?
+Karrot AI offers a free tier with basic scanning features. Premium features are available through subscription. Waitlist members get extended free premium access.
+
+### What products can Karrot AI scan?
+Any food product with a barcode or visible ingredient list. The database includes 10+ million products from 50+ countries, covering packaged foods, beverages, supplements, and more.
+
+### Does Karrot AI detect food allergies?
+Yes. Karrot AI detects common allergens including gluten, dairy, nuts, soy, eggs, shellfish, and more. Set up your allergen profile to get instant warnings.
+
+### Is Karrot AI available worldwide?
+Yes. The database covers products from 50+ countries including USA, UK, Canada, Australia, and European countries. The app works with any product that has a barcode or readable ingredient list.
+
+### How accurate is Karrot AI?
+Karrot AI uses advanced AI with 99% accuracy in ingredient recognition. Analysis is based on peer-reviewed nutritional research.
+
+### When will Karrot AI launch?
+Karrot AI is currently in development. Join the waitlist at karrotai.app for early access and launch notifications.
+
+## Company Information
+
+- **Website**: https://karrotai.app
+- **FAQ Page**: https://karrotai.app/faq (100 common food & health questions answered)
+- **Contact**: support@karrotai.app
+- **Social Media**:
+  - Instagram: https://instagram.com/karrotai
+  - TikTok: https://tiktok.com/@karrotai
+  - X (Twitter): https://x.com/karrotai
+
+## Technical Details
+
+- **Platforms**: iOS, Android (coming soon)
+- **Analysis Time**: Under 5 seconds
+- **Database Size**: 10+ million products
+- **Countries Supported**: 50+
+- **Accuracy Rate**: 99%
+- **Category**: Health & Fitness
+
+## Use Cases
+
+1. **Allergy Management**: Quickly identify products containing allergens
+2. **Diet Tracking**: Monitor ingredient consumption for specific diets (keto, vegan, etc.)
+3. **Health Optimization**: Avoid harmful additives and choose healthier alternatives
+4. **Family Safety**: Ensure products are safe for family members with dietary restrictions
+5. **Informed Shopping**: Make better grocery decisions in real-time
+
+## Summary
+
+Karrot AI is the easiest way to understand what's in your food. Using AI-powered scanning technology, it provides instant, personalized health insights for any food product. Join the waitlist at karrotai.app to get early access when the app launches.
