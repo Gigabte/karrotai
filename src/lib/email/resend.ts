@@ -4,8 +4,10 @@ import WaitlistConfirmationEmail from '@/emails/WaitlistConfirmation'
 import PromoterWelcomeEmail from '@/emails/PromoterWelcome'
 import NewsletterEmail from '@/emails/Newsletter'
 
-// Initialize Resend with your API key
-const resend = new Resend(process.env.RESEND_API_KEY)
+// Initialize Resend with your API key (only if available)
+const resend = process.env.RESEND_API_KEY 
+  ? new Resend(process.env.RESEND_API_KEY)
+  : null
 
 export interface SendWaitlistConfirmationParams {
   to: string
@@ -41,6 +43,12 @@ export async function sendWaitlistConfirmation({
   promoterName
 }: SendWaitlistConfirmationParams) {
   try {
+    // Skip if Resend API key is not available (e.g., during build)
+    if (!resend) {
+      console.log('Resend API key not configured, skipping email send')
+      return { success: true, data: { id: 'skip-build-time' } }
+    }
+
     const emailHtml = await render(
       WaitlistConfirmationEmail({
         email,
@@ -79,6 +87,12 @@ export async function sendPromoterWelcome({
   commission
 }: SendPromoterWelcomeParams) {
   try {
+    // Skip if Resend API key is not available (e.g., during build)
+    if (!resend) {
+      console.log('Resend API key not configured, skipping email send')
+      return { success: true, data: { id: 'skip-build-time' } }
+    }
+
     const emailHtml = await render(
       PromoterWelcomeEmail({
         name,
@@ -119,6 +133,12 @@ export async function sendNewsletter({
   ctaUrl
 }: SendNewsletterParams) {
   try {
+    // Skip if Resend API key is not available (e.g., during build)
+    if (!resend) {
+      console.log('Resend API key not configured, skipping email send')
+      return { success: true, data: { id: 'skip-build-time' } }
+    }
+
     const emailHtml = await render(
       NewsletterEmail({
         subject,
