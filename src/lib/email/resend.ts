@@ -9,6 +9,9 @@ const resend = process.env.RESEND_API_KEY
   ? new Resend(process.env.RESEND_API_KEY)
   : null
 
+// Log initialization status
+console.log('Resend initialized:', !!resend, 'API Key exists:', !!process.env.RESEND_API_KEY)
+
 export interface SendWaitlistConfirmationParams {
   to: string
   email: string
@@ -49,6 +52,9 @@ export async function sendWaitlistConfirmation({
       return { success: true, data: { id: 'skip-build-time' } }
     }
 
+    console.log('Sending waitlist confirmation to:', to)
+    console.log('EMAIL_FROM:', process.env.EMAIL_FROM)
+
     const emailHtml = await render(
       WaitlistConfirmationEmail({
         email,
@@ -65,10 +71,11 @@ export async function sendWaitlistConfirmation({
     })
 
     if (error) {
-      console.error('Error sending waitlist confirmation:', error)
+      console.error('Resend error:', JSON.stringify(error))
       return { success: false, error }
     }
 
+    console.log('Email sent successfully:', data)
     return { success: true, data }
   } catch (error) {
     console.error('Error sending waitlist confirmation:', error)
