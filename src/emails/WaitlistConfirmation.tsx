@@ -78,6 +78,15 @@ export const WaitlistConfirmationEmail = ({
               </Link>
             </Section>
 
+            <Section style={faqSection}>
+              <Text style={textSmall}>
+                Have questions? Check out our{' '}
+                <Link href="https://karrotai.app/faq" style={socialLink}>
+                  FAQ
+                </Link>
+              </Text>
+            </Section>
+
             {/* Social Links */}
             <Section style={socialSection}>
               <Text style={socialText}>Follow us</Text>
@@ -103,8 +112,8 @@ export const WaitlistConfirmationEmail = ({
               © {new Date().getFullYear()} Karrot AI
             </Text>
             <Text style={footerText}>
-              <Link href="mailto:support@karrotai.app" style={footerLink}>
-                support@karrotai.app
+              <Link href="mailto:contact@karrotai.app" style={footerLink}>
+                contact@karrotai.app
               </Link>
             </Text>
           </Section>
@@ -190,6 +199,11 @@ const divider = {
 const ctaSection = {
   textAlign: 'center' as const,
   margin: '24px 0 16px',
+}
+
+const faqSection = {
+  textAlign: 'center' as const,
+  margin: '16px 0',
 }
 
 const button = {
