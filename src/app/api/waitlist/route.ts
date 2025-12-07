@@ -64,13 +64,18 @@ export async function POST(request: NextRequest) {
       }
     })
 
-    // Send confirmation email (don't block the response)
-    sendWaitlistConfirmation({
-      to: email,
-      email,
-      referralCode,
-      promoterName: promoterName || undefined
-    }).catch(err => console.error('Failed to send confirmation email:', err))
+    // Send confirmation email (await to ensure it completes before function ends)
+    try {
+      await sendWaitlistConfirmation({
+        to: email,
+        email,
+        referralCode,
+        promoterName: promoterName || undefined
+      })
+    } catch (emailError) {
+      console.error('Failed to send confirmation email:', emailError)
+      // Don't fail the request if email fails
+    }
 
     return NextResponse.json({ 
       success: true, 
