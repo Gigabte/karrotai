@@ -9,9 +9,17 @@ import { sendPromoterWelcome } from '@/lib/email/resend'
 async function verifyHCaptcha(token: string): Promise<boolean> {
   const secret = process.env.HCAPTCHA_SECRET_KEY
   
+  console.log('hCaptcha secret exists:', !!secret)
+  console.log('hCaptcha token received:', !!token)
+  
   // Skip verification in development with test keys
   if (secret === '0x0000000000000000000000000000000000000000') {
     return true
+  }
+  
+  if (!secret) {
+    console.error('HCAPTCHA_SECRET_KEY is not set')
+    return false
   }
   
   try {
@@ -21,8 +29,10 @@ async function verifyHCaptcha(token: string): Promise<boolean> {
       body: `secret=${secret}&response=${token}`
     })
     const data = await response.json()
+    console.log('hCaptcha response:', JSON.stringify(data))
     return data.success === true
-  } catch {
+  } catch (error) {
+    console.error('hCaptcha verification error:', error)
     return false
   }
 }
